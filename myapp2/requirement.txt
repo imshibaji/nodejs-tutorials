@@ -1,0 +1,39 @@
+Task Manager
+=============
+
+Database create
+================
+     Mysql
+================
+
+Database Manager
+=================
+    Workbench
+=================
+
+
+Tables Structure
+===============
+1. Users 
+    -- id | int | not null | autoincrement
+    -- name | varchar
+    -- email | varchar 
+    -- password | varchar 
+    -- mobile | varchar 
+    -- status | varchar 
+    -- role | varchar 
+
+2. Goals
+    -- id | int | not null | autoincrement
+    -- title | varchar
+    -- todo | varchar
+    -- done | varchar
+    -- score | int
+    -- user_id | int 
+    
+3. jobs
+    -- id | int | not null | autoincrement
+    -- title | varchar
+    -- details | varchar
+    -- created_by | int 
+    -- response_for | int
