@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  table.table(border='1')
+    tr
+        th Username
+        th password
+        th email
+    each u in users
+        tr
+            td=u.user
+            td=u.pass
+            td=u.email
